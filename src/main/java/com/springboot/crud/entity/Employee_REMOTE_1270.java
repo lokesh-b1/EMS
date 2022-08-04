@@ -69,10 +69,12 @@ public class Employee {
 			this.phoneNumber = phoneNumber;
 		}
 
+		@Override
+		public String toString() {
+			return "Employee [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", email=" + email
+					+ ", phoneNumber=" + phoneNumber + "]";
 		}
 
-<<<<<<< HEAD
-=======
 		@Override
 		public int hashCode() {
 			return Objects.hash(email, firstName, id, lastName, phoneNumber);
@@ -96,4 +98,3 @@ public class Employee {
 
 }
 
->>>>>>> Pandu
